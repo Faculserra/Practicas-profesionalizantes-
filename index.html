@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    
+<nav class="navbar" style = "box-shadow: 0 0 7px #9b9b9b;">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">
+      <img src="logo-pba.svg" alt="Logo" width="100%" class="d-inline-block align-text-top">
+    </a>
+    
+    <button class="btn" style = "color: rgb( 0, 166, 177); size-adjust: 100%;" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">☰</button>
+
+    <div class="offcanvas offcanvas-end d-flex" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+    <div class="offcanvas-header">
+        <h5 class="offcanvas-title" id="offcanvasRightLabel">Offcanvas right</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    </div>
+    <div class="offcanvas-body">
+        ...
+    </div>
+    </div>
+  </div>
+</nav>
+
+<ul class="nav nav-tabs" id="myTab" role="tablist" style="padding: 1%;">
+  <li class="nav-item" role="presentation">
+    <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home-tab-pane" type="button" role="tab" aria-controls="home-tab-pane" aria-selected="true">Home</button>
+  </li>
+  <li class="nav-item" role="presentation">
+    <button class="nav-link" id="intituciones-tab" data-bs-toggle="tab" data-bs-target="#instituciones-tab-pane" type="button" role="tab" aria-controls="instituciones-tab-pane" aria-selected="false">Instituciones</button>
+  </li>
+  <li class="nav-item" role="presentation">
+    <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact-tab-pane" type="button" role="tab" aria-controls="contact-tab-pane" aria-selected="false">Contact</button>
+  </li>
+</ul>
+<div class="tab-content" id="myTabContent" style="padding: 2%;">
+  <div class="tab-pane fade show active" id="home-tab-pane" role="tabpanel" aria-labelledby="home-tab" tabindex="0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos recusandae dolores magni quae ea minus molestias, velit nobis quam ratione eaque a ab voluptate animi eius illo accusantium? Aliquam, doloribus.</div>
+  <div class="tab-pane fade" id="instituciones-tab-pane" role="tabpanel" aria-labelledby="instituciones-tab" tabindex="0">
+  <div class="card" style="width: 18rem;">
+  <img src="..." class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Card title</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+  <!-- Button trigger modal -->
+  <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+    Launch demo modal
+  </button>
+
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable" style="margin: 0.5%;">
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam non illo est dignissimos autem architecto perspiciatis eaque quam optio atque mollitia ab magnam error, dolores vero eum earum saepe voluptatibus nemo delectus necessitatibus laboriosam. Debitis vel exercitationem voluptate corporis beatae cumque harum fugiat, quo nobis at ab alias veniam omnis?
+        </div>
+        <div class="modal-footer">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  </div>
+  </div>
+  </div>
+  <div class="tab-pane fade" id="contact-tab-pane" role="tabpanel" aria-labelledby="contact-tab" tabindex="0">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem nulla ab fugiat voluptatibus alias odit, praesentium nisi autem voluptate quisquam debitis! Autem, veritatis dolorum! Vel placeat quas corrupti? Architecto, vel.</div>
+</div>
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+
+</body>
+</html>
+
+<!--style="background-color: rgb( 0, 166, 177);" azul gob-->
